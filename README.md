@@ -1,1 +1,2 @@
 # Avatar-generation-from-real-images-using-deep-learning
+ "StableDiffusionInstructPix2PixPipeline" and "EulerAncestralDiscreteScheduler" from the "diffusers" library to cartoonize an input image defined by the path in "IMAGE_PATH" using the model specified by "MODEL_ID." It loads the image, applies the model with the given prompt ("PROMPT"), and displays the cartoonized image after 10 inference steps on the GPU.
